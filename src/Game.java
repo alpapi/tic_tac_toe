@@ -90,10 +90,7 @@ public class Game {
 		
 		for(int i = 0; i < posNames.length; i++)
 			if(choice.equalsIgnoreCase(posNames[i]))
-			{
-				// Use switch statement to check what choice is
-				move = true;
-			}
+				move = true; // Use switch statement to check what choice is
 		
 		return move;
 	}
